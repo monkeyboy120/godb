@@ -1,0 +1,51 @@
+# Compiled binaries
+/bin/
+emberdb
+emberdb.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test and profiling output
+*.test
+*.out
+coverage.out
+coverage.html
+*.prof
+cpu.prof
+mem.prof
+trace.out
+
+# Benchmark and generated output
+/benchmarks/results/
+/tmp/
+/dist/
+/build/
+
+# Runtime database files
+/data/
+*.aof
+*.rdb
+*.snapshot
+*.db
+*.log
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+config.local.yaml
+config.local.json
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system files
+.DS_Store
+Thumbs.db
